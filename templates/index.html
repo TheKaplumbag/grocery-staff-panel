@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grocery Staff Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Grocery Staff Panel</h1>
+
+    <div id="products">
+        <h2>Products</h2>
+        <ul id="product-list"></ul>
+    </div>
+
+    <div id="sales">
+        <h2>Record Sale</h2>
+        <select id="sale-product"></select>
+        <input type="number" id="sale-quantity" placeholder="Quantity">
+        <button id="record-sale-button">Record Sale</button>
+    </div>
+
+    <div id="inventory">
+        <h2>Inventory</h2>
+        <ul id="inventory-list"></ul>
+    </div>
+
+    <div id="add-product">
+        <h2>Add Product</h2>
+        <input type="text" id="new-product-name" placeholder="Product Name">
+        <input type="number" id="new-product-price" placeholder="Price">
+        <button id="add-product-button">Add Product</button>
+    </div>
+
+    <div id="add-user">
+        <h2>Add User</h2>
+        <input type="text" id="new-user-name" placeholder="Username">
+        <input type="password" id="new-user-password" placeholder="Password">
+        <select id="new-user-role">
+          <option value="manager">Manager</option>
+          <option value="cashier">Cashier</option>
+        </select>
+        <button id="add-user-button">Add User</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

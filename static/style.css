@@ -1,0 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
+#products, #sales, #inventory, #add-product, #add-user {
+    margin-bottom: 20px;
+}
